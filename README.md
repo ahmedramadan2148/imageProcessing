@@ -1,6 +1,7 @@
 # imageProcessing
 
-## install all pakages 
+## scripts
+### first 
 Install: npm install
 Build: npm run build
 Lint: npm run lint
