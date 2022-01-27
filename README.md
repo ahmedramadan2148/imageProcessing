@@ -1,8 +1,9 @@
 # imageProcessing
 
 ## scripts
-### first 
- .Install: npm install
+### first install all pakage 
+
+ ** Install: npm install
 Build: npm run build
 Lint: npm run lint
 Prettify: npm run prettify
