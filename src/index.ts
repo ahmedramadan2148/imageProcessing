@@ -1,17 +1,18 @@
 import express from "express"
-import routes from "./routes/index";
-import cors from "cors";
-
-
-const app = express();
+import routes from "./routes/index"
+import cors from "cors"
+import FileImage from "./Processing_image/Read_Image"
+import path from "path"
+const app = express()
 
 app.use(cors())
-const port = 3001;
+const port = 3001
 
-app.use("/api",routes);
+app.use("/api", routes)
 
-app.listen(port,()=>{
-    console.log(`server start at http://localhost:${port}`);
+app.listen(port, async () => {
+	await new FileImage().createThumbFolder()
+	console.log(`server start at http://localhost:${port}`)
 })
 
-export default app;
+export default app
