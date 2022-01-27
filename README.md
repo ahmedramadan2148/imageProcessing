@@ -30,4 +30,4 @@ this server will listen in port 3000
 image in utilities files
  > utilities/images
 image thumb in 
- >
+ > utitlities/Thumb_Path
