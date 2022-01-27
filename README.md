@@ -4,7 +4,8 @@
 ### first install all pakage 
 
  > Install: npm install
-Build: npm run build
+### build
+ > Build: npm run build
 Lint: npm run lint
 Prettify: npm run prettify
 Run unit tests: npm run test
