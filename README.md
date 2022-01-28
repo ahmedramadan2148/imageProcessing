@@ -23,9 +23,9 @@ this server will listen in port 3000
 
 > http://localhost:3000/api/images
 ### show image 
-> http://localhost:3000/api/images?filname=fjord
+> http://localhost:3000/api/images?filename=fjord
 ### resize the images 
-> http://localhost:3000/api/images?filname=fjord&width:200&height:200
+> http://localhost:3000/api/images?filename=fjord&width=200&height=200
 
 ## Notes
 image in utilities files
