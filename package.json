@@ -7,17 +7,17 @@
     "build": "npx tsc",
     "start": "nodemon  ./src/index.ts",
     "test": "npx tsc && jasmine",
-    "format": "prettier --write 'src/**/*.ts'",
+    "format": "prettier --write src ",
     "lint": "eslint",
     "start_prod": " nodemon dist/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "copyfiles": "^2.4.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "sharp": "^0.29.3"
-  
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
@@ -31,7 +31,10 @@
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "jasmine": "^4.0.2",
+    "jasmine-spec-reporter": "^7.0.0",
     "prettier": "2.5.1",
+    "supertest": "^6.2.2",
     "typescript": "^4.5.5"
   }
 }
